@@ -6,6 +6,10 @@ Cosmopedia combines entries from four encyclopedias into a single reference work
 - Local: topics that matter mostly in one country. Example: a Korean place that only JoongAng describes.
 - Modular: a module collects only the entries of one region. Example: an American module, a Japanese module, and a Korean module. Each module is a separate part of the whole.
 
+From left to right: the cover, a Global page in English, a Korean page, and a Japanese page. In the Global page, the marks M and J after a headword show which works describe the topic. The Japanese and Korean names follow in brackets.
+
+![Sample pages from three modules](https://github.com/user-attachments/assets/1bcd9335-e1c7-4a62-82b5-c04d95268e06)
+
 ## Why these four works
 
 The goal is a quick look at the whole picture of knowledge. Each work has one job.
