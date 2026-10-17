@@ -51,12 +51,14 @@ The letters B, C, M and J are the source marks printed after each headword. A ma
 
 Each module has its own body and its own index of headwords and aliases.
 
-| Module | What it holds | Text language | Headword language | Entries |
-|--------|---------------|---------------|-------------------|--------:|
-| Global (Common) | Topics held by two or more works, topics from Britannica, Japanese or Korean topics that are not about Japan or Korea, and Columbia topics that matter to the whole world | English | English | 68,615 |
-| Japanese | Topics only MyPedia describes, and about Japan | Japanese | Japanese | 20,880 |
-| Korean | Topics only JoongAng describes, and about Korea | Korean | Korean | 17,901 |
-| American | Topics only Columbia describes, and about the United States | English | English | 5,922 |
+| Module | What it holds | Text language and translation | Headword language | Entries |
+|--------|---------------|-------------------------------|-------------------|--------:|
+| Global (Common) | Topics held by two or more works, topics from Britannica, Japanese or Korean topics that are not about Japan or Korea, and Columbia topics that matter to the whole world | English; Korean | English | 68,265 |
+| Japanese | Topics only MyPedia describes, and about Japan | Japanese; Korean | Japanese | 20,396 |
+| Korean | Topics only JoongAng describes, and about Korea | Korean | Korean | 17,562 |
+| American | Topics only Columbia describes, and about the United States | English; Korean | English | 5,847 |
+
+Korean translations (`ko-KR`) are available as listed above; more languages may follow.
 
 ### Share of entries by **subject**
 
@@ -69,15 +71,15 @@ An entry whose type is PERSON is counted under **People**, whatever its field. T
 - Economy, law and society: economy and business, society, education and psychology, daily culture, sports and games.
 - Other: the model answered UNSURE.
 
-| Subject | Common | Japanese | Korean | American |
+| Subject | Global (Common) | Japanese | Korean | American |
 |---|---|---|---|---|
-| **People** | 29.5% | 14.7% | 19.8% | 50.0% |
-| **Places and geography** | 17.6% | 21.4% | 10.5% | 37.3% |
-| **History and politics** | 7.3% | 14.5% | 25.4% | 3.7% |
-| **Science, medicine and technology** | 26.6% | 13.4% | 6.3% | 1.4% |
+| **People** | 29.5% | 14.7% | 20.2% | 50.0% |
+| **Places and geography** | 17.6% | 21.8% | 10.6% | 37.2% |
+| **History and politics** | 7.3% | 14.7% | 25.6% | 3.7% |
+| **Science, medicine and technology** | 26.5% | 12.5% | 5.7% | 1.4% |
 | **Religion, philosophy and thought** | 4.5% | 6.0% | 5.0% | 0.6% |
-| **Arts, literature and music** | 6.7% | 12.6% | 18.1% | 1.4% |
-| **Economy, law and society** | 7.8% | 17.3% | 14.7% | 5.7% |
+| **Arts, literature and music** | 6.7% | 12.7% | 18.2% | 1.3% |
+| **Economy, law and society** | 7.8% | 17.5% | 14.7% | 5.7% |
 | **Other** | 0.1% | 0.1% | 0.0% | 0.0% |
 
 ### Limitations
