@@ -53,10 +53,10 @@ Each module has its own body and its own index of headwords and aliases.
 
 | Module | What it holds | Text language | Headword language | Entries |
 |--------|---------------|---------------|-------------------|--------:|
-| Global (Common) | Topics held by two or more works, topics from Britannica, Japanese or Korean topics that are not about Japan or Korea, and Columbia topics that matter to the whole world | English | English | 68,615 |
+| Global (Common) | Topics held by two or more works, topics from Britannica, Japanese or Korean topics that are not about Japan or Korea, and Columbia topics that matter to the whole world | English | English | 68,541 |
 | Japanese | Topics only MyPedia describes, and about Japan | Japanese | Japanese | 20,880 |
 | Korean | Topics only JoongAng describes, and about Korea | Korean | Korean | 17,901 |
-| American | Topics only Columbia describes, and about the United States | English | English | 5,922 |
+| American | Topics only Columbia describes, and about the United States | English | English | 5,892 |
 
 ### Share of entries by **subject**
 
