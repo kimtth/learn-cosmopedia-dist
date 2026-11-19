@@ -25,18 +25,22 @@ The goal is a quick look at the whole picture of knowledge. Each work has one jo
 
 ## Sources
 
-| Work | Language | Edition and publisher | Source entries (without cross-references) |
-|------|----------|-----------------------|---------------:|
-| Britannica Concise Encyclopedia (B) | en | © 2006 Encyclopædia Britannica, Inc., Chicago | 25,288 |
-| The Columbia Encyclopedia, Sixth Edition (C) | en | Ed. Paul Lagasse, Columbia University Press, © 2000 | 41,551 |
-| 百科事典マイペディア, MyPedia (M) | ja | Heibonsha (平凡社), 1998 | 53,828 |
-| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J) | ko | JoongAng Ilbo (중앙일보사), 1997 | 44,464 |
+| Work | Language | Edition and publisher | Latest year found in source text | Source entries (without cross-references) |
+|------|----------|-----------------------|------------------------------------|---------------:|
+| Britannica Concise Encyclopedia (B) | en | © 2006 Encyclopædia Britannica, Inc., Chicago | 2006 | 25,288 |
+| The Columbia Encyclopedia, Sixth Edition (C) | en | Ed. Paul Lagasse, Columbia University Press, © 2000 (PDF text: 2000; electronic reference, © 2022: about 2021) | 2000 (PDF); about 2021 (electronic) | 41,551 |
+| 百科事典マイペディア, MyPedia (M) | ja | Heibonsha (平凡社), 1998 | about 1995 | 53,828 |
+| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J) | ko | JoongAng Ilbo (중앙일보사), 1997 | about 1995 | 44,464 |
 
-"Source entries" counts the real entries in each file. An entry that only points to another entry is left out. Examples are a redirect or a "See X" line. The method is a rule of thumb, so the Columbia and JoongAng numbers are approximate.
+"Source entries" excludes redirects and entries that only say "See X". The rules are approximate for Columbia and JoongAng, so their counts are estimates.
+
+The years come from a random sample of 5,000 source entries per work (2026-11-12). The estimate excludes publication dates, planned events, and Wikipedia updates.
+
+Wikipedia supplements the four works with 557 new entries and 1,023 passages added to existing articles. Cosmopedia calls these W additions and marks the affected articles with `w`. The updates are selective. See [rebuild.md](docs/rebuild.md) for build steps and appendix details.
 
 ### Where to find each work
 
-Book data comes from Open Library (the ISBNs and work pages were returned by its search). 
+Open Library search supplied the ISBNs and work pages below.
 
 | Work | Online version | Book info |
 |------|----------------|-----------|
@@ -45,24 +49,27 @@ Book data comes from Open Library (the ISBNs and work pages were returned by its
 | MyPedia (M) | [Kotobank](https://kotobank.jp/dictionary/mypedia/) | Latest edition: *MyPedia* (新装新訂), 1995, 1,653 pages, ISBN 978-4-582-09631-6. [Bibliographic record](https://www.books.or.jp/book-details/9784582096316) |
 | JoongAng '97 (J) | No known online version. | Closest book: 《Eureka 중앙백과사전》 (1995), 2,243 pages. [National Library of Korea catalog](https://www.nl.go.kr/NL/contents/search.do?pageNum=1&pageSize=10&srchTarget=total&kwd=Eureka+%EC%A4%91%EC%95%99백과사전) |
 
-The letters B, C, M and J are the source marks printed after each headword. A mark shows which works describe the topic. It does not mean the works agree on every fact.
+B, C, M and J after a headword identify the sources that describe the topic. They do not mean those sources agree on every fact. W stands for Wikipedia. The lowercase `w` marks a new entry or an update to an existing article based on Wikipedia.
 
 ## Modules
 
+**Global and Common name the same module.** The preface and reader-facing descriptions use Global (세계편 in Korean). Local (지역편) covers the American, Japanese and Korean modules. Code, data, file names, PDF bookmarks, and the source legend still use Common. For example, `module: "Common"` and `cosmopedia_Common.pdf` refer to Global. Global-KO means Common-KO. No data values or file names change.
+
 Each module has its own body and its own index of headwords and aliases.
 
-| Module | What it holds | Text language and translation | Headword language | Entries |
-|--------|---------------|-------------------------------|-------------------|--------:|
-| Global (Common) | Topics held by two or more works, topics from Britannica, Japanese or Korean topics that are not about Japan or Korea, and Columbia topics that matter to the whole world | English; Korean | English | 68,265 |
-| Japanese | Topics only MyPedia describes, and about Japan | Japanese; Korean | Japanese | 20,396 |
-| Korean | Topics only JoongAng describes, and about Korea | Korean | Korean | 17,562 |
-| American | Topics only Columbia describes, and about the United States | English; Korean | English | 5,847 |
+| Module | What it holds | Text and headword language | Entries | New W entries |
+|--------|---------------|----------------------------|--------:|--------------:|
+| Global (Common) | Topics of global interest | English | 68,539 | 274 |
+| Japanese | Topics about Japan | Japanese | 20,476 | 80 |
+| Korean | Topics about Korea | Korean | 17,665 | 103 |
+| American | Topics about the United States | English | 5,947 | 100 |
+| **Total per edition** | | | **112,627** | **557** |
 
-Korean translations (`ko-KR`) are available as listed above; more languages may follow.
+The Original Edition has 5,212 pages. The Korean Edition has 4,727 pages. The 1,023 passages added to existing articles do not count as new entries.
 
-### Share of entries by **subject**
+### Share of entries by subject before W additions
 
-An entry whose type is PERSON is counted under **People**, whatever its field. The other entries are grouped by field:
+This table covers the 112,070 entries before the W additions. All PERSON entries count under **People**, regardless of field. Other entries are grouped by field:
 
 - History and politics: history, politics and law, military.
 - Science, medicine and technology: life science, physics and chemistry, mathematics, earth and space, technology, medicine.
