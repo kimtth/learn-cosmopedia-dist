@@ -1,6 +1,6 @@
 # Cosmopedia
 
-Cosmopedia combines entries from four encyclopedias into a single reference work. The four sources are Britannica Concise, Columbia, MyPedia, and JoongAng. It uses a modular Global + Local approach. This widens coverage by bringing together trusted sources in English, Japanese, and Korean.
+Cosmopedia combines four encyclopedias: Britannica Concise, Columbia, MyPedia, and JoongAng. It uses Wikipedia to cover selected developments since those editions were published. The Global and Local modules draw on English, Japanese, and Korean sources.
 
 - Global: topics that matter in many countries. Example: a world-famous person that both Britannica and Columbia describe.
 - Local: topics that matter mostly in one country. Example: a Korean place that only JoongAng describes.
@@ -36,7 +36,7 @@ The goal is a quick look at the whole picture of knowledge. Each work has one jo
 
 The years come from a random sample of 5,000 source entries per work (2026-11-12). The estimate excludes publication dates, planned events, and Wikipedia updates.
 
-Wikipedia supplements the four works with 557 new entries and 1,023 passages added to existing articles. Cosmopedia calls these W additions and marks the affected articles with `w`. The updates are selective. See [rebuild.md](docs/rebuild.md) for build steps and appendix details.
+Wikipedia supplements the four works with 578 new entries and 1,023 passages across 1,021 existing entries. Cosmopedia calls these W additions and marks the affected articles with `w`. The edition also includes 796 body replacement rows, 148 personal headword corrections, and six article merges.  
 
 ### Where to find each work
 
@@ -59,17 +59,17 @@ Each module has its own body and its own index of headwords and aliases.
 
 | Module | What it holds | Text and headword language | Entries | New W entries |
 |--------|---------------|----------------------------|--------:|--------------:|
-| Global (Common) | Topics of global interest | English | 68,539 | 274 |
-| Japanese | Topics about Japan | Japanese | 20,476 | 80 |
-| Korean | Topics about Korea | Korean | 17,665 | 103 |
-| American | Topics about the United States | English | 5,947 | 100 |
-| **Total per edition** | | | **112,627** | **557** |
+| Global (Common) | Topics of global interest | English | 70,518 | 296 |
+| Japanese | Topics about Japan | Japanese | 18,443 | 81 |
+| Korean | Topics about Korea | Korean | 17,259 | 106 |
+| American | Topics about the United States | English | 6,422 | 95 |
+| **Total per edition** | | | **112,642** | **578** |
 
-The Original Edition has 5,212 pages. The Korean Edition has 4,727 pages. The 1,023 passages added to existing articles do not count as new entries.
+These counts describe the current edition data. The English and Japanese modules have 95,383 entries with matching Korean IDs. Both editions share the 17,259-entry Korean module. Matching IDs confirm coverage, not translation quality. The existing PDFs predate the latest changes.
 
-### Share of entries by subject before W additions
+### Subject shares before the final headword review
 
-This table covers the 112,070 entries before the W additions. All PERSON entries count under **People**, regardless of field. Other entries are grouped by field:
+This earlier table does not include the final same-headword decisions or the 578 new W entries. All PERSON entries count under **People**, regardless of field. Other entries are grouped by field:
 
 - History and politics: history, politics and law, military.
 - Science, medicine and technology: life science, physics and chemistry, mathematics, earth and space, technology, medicine.
@@ -80,13 +80,13 @@ This table covers the 112,070 entries before the W additions. All PERSON entries
 
 | Subject | Global (Common) | Japanese | Korean | American |
 |---|---|---|---|---|
-| **People** | 29.5% | 14.7% | 20.2% | 50.0% |
-| **Places and geography** | 17.6% | 21.8% | 10.6% | 37.2% |
-| **History and politics** | 7.3% | 14.7% | 25.6% | 3.7% |
-| **Science, medicine and technology** | 26.5% | 12.5% | 5.7% | 1.4% |
-| **Religion, philosophy and thought** | 4.5% | 6.0% | 5.0% | 0.6% |
-| **Arts, literature and music** | 6.7% | 12.7% | 18.2% | 1.3% |
-| **Economy, law and society** | 7.8% | 17.5% | 14.7% | 5.7% |
+| **People** | 28.4% | 16.4% | 20.7% | 49.1% |
+| **Places and geography** | 16.9% | 24.7% | 11.1% | 35.4% |
+| **History and politics** | 7.6% | 14.4% | 25.6% | 4.7% |
+| **Science, medicine and technology** | 27.2% | 8.8% | 5.3% | 1.9% |
+| **Religion, philosophy and thought** | 4.7% | 5.9% | 4.5% | 0.6% |
+| **Arts, literature and music** | 6.8% | 13.0% | 18.3% | 2.2% |
+| **Economy, law and society** | 8.4% | 16.7% | 14.4% | 6.1% |
 | **Other** | 0.1% | 0.1% | 0.0% | 0.0% |
 
 ### Limitations
