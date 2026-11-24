@@ -2,6 +2,8 @@
 
 Cosmopedia combines four encyclopedias: Britannica Concise, Columbia, MyPedia, and JoongAng. It uses Wikipedia to cover selected developments since those editions were published. The Global and Local modules draw on English, Japanese, and Korean sources.
 
+Read the [Preface](./preface.md) for the project's aims and editorial approach.
+
 - Global: topics that matter in many countries. Example: a world-famous person that both Britannica and Columbia describe.
 - Local: topics that matter mostly in one country. Example: a Korean place that only JoongAng describes.
 - Modular: a module collects only the entries of one region. Example: an American module, a Japanese module, and a Korean module. Each module is a separate part of the whole.
@@ -25,12 +27,12 @@ The goal is a quick look at the whole picture of knowledge. Each work has one jo
 
 ## Sources
 
-| Work | Language | Edition and publisher | Latest year found in source text | Source entries (without cross-references) |
-|------|----------|-----------------------|------------------------------------|---------------:|
-| Britannica Concise Encyclopedia (B) | en | © 2006 Encyclopædia Britannica, Inc., Chicago | 2006 | 25,288 |
-| The Columbia Encyclopedia, Sixth Edition (C) | en | Ed. Paul Lagasse, Columbia University Press, © 2000 (PDF text: 2000; electronic reference, © 2022: about 2021) | 2000 (PDF); about 2021 (electronic) | 41,551 |
-| 百科事典マイペディア, MyPedia (M) | ja | Heibonsha (平凡社), 1998 | about 1995 | 53,828 |
-| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J) | ko | JoongAng Ilbo (중앙일보사), 1997 | about 1995 | 44,464 |
+| Work | Language | Edition and publisher | Latest year found in source text | Source entries | Source cross-references |
+|------|----------|-----------------------|----------------------------------|---------------:|-------------------------:|
+| Britannica Concise Encyclopedia (B) | en | © 2006 Encyclopædia Britannica, Inc., Chicago | 2006 | 25,288 | About 76,000 printed references |
+| The Columbia Encyclopedia, Sixth Edition (C) | en | Ed. Paul Lagasse, Columbia University Press, © 2000 (PDF text: 2000; electronic reference, © 2022: about 2021) | 2000 (PDF); about 2021 (electronic) | 41,551 | About 62,000 (print scan estimate); 90,555 links (electronic) |
+| 百科事典マイペディア, MyPedia (M) | ja | Heibonsha (平凡社), 1998 | about 1995 | 53,828 | 192,733 links, excluding standalone redirects |
+| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J) | ko | JoongAng Ilbo (중앙일보사), 1997 | about 1995 | 44,464 | 211,278 links in named entries |
 
 "Source entries" excludes redirects and entries that only say "See X". The rules are approximate for Columbia and JoongAng, so their counts are estimates.
 
@@ -49,7 +51,7 @@ Open Library search supplied the ISBNs and work pages below.
 | MyPedia (M) | [Kotobank](https://kotobank.jp/dictionary/mypedia/) | Latest edition: *MyPedia* (新装新訂), 1995, 1,653 pages, ISBN 978-4-582-09631-6. [Bibliographic record](https://www.books.or.jp/book-details/9784582096316) |
 | JoongAng '97 (J) | No known online version. | Closest book: 《Eureka 중앙백과사전》 (1995), 2,243 pages. [National Library of Korea catalog](https://www.nl.go.kr/NL/contents/search.do?pageNum=1&pageSize=10&srchTarget=total&kwd=Eureka+%EC%A4%91%EC%95%99백과사전) |
 
-B, C, M and J after a headword identify the sources that describe the topic. They do not mean those sources agree on every fact. W stands for Wikipedia. The lowercase `w` marks a new entry or an update to an existing article based on Wikipedia.
+`B`, `C`, `M`, and `J` after a headword identify the reference works that cover the topic. These marks do not imply that the sources agree on every fact. The lowercase `w` marks Wikipedia-based material. `U` marks new and expanded entries. See annual news, population, administrative areas, and statistics.
 
 ## Modules
 
@@ -57,17 +59,25 @@ B, C, M and J after a headword identify the sources that describe the topic. The
 
 Each module has its own body and its own index of headwords and aliases.
 
-| Module | What it holds | Text and headword language | Entries | New entries | Updated existing entries |
-|--------|---------------|----------------------------|--------:|------------:|-------------------------:|
-| Global (Common) | Topics of global interest | English | 70,574 | 355 | 12,714 |
-| Japanese | Topics about Japan | Japanese | 18,443 | 81 | 3,461 |
-| Korean | Topics about Korea | Korean | 17,259 | 106 | 1,156 |
-| American | Topics about the United States | English | 6,422 | 95 | 2,073 |
-| **Total per edition** | | | **112,698** | **637** | **19,404** |
+| Module | What it holds | Text and headword language | Entries | New | Updated | Original edition words | Korean edition words |
+|--------|---------------|----------------------------|--------:|----:|--------:|-----------------------:|---------------------:|
+| Global (Common) | Topics of global interest | English | 70,562 | 355 | 12,543 | 6,669,867 | 4,338,464 |
+| Japanese | Topics about Japan | Japanese | 18,347 | 81 | 3,807 | 1,768,643 | 985,546 |
+| Korean | Topics about Korea | Korean | 17,245 | 107 | 2,138 | 743,996 | 743,996 |
+| American | Topics about the United States | English | 6,422 | 95 | 1,549 | 672,081 | 461,536 |
+| **Total per edition** | | | **112,576** | **638** | **20,037** | **9,854,587** | **6,529,542** |
 
-These counts describe the current edition data. The English and Japanese modules have 95,439 entries with matching Korean IDs. Both editions share the 17,259-entry Korean module. Matching IDs confirm coverage, not translation quality.
+**New** and **Updated** are cumulative counts for the current edition, measured against the original render inputs. **New** counts entries added since those inputs. **Updated** counts original entries that remain in the edition and differ in either language. Each article ID counts once in its current module, and the two counts do not overlap.
 
-New entries count Wikipedia (W) and yearbook (YB) additions together. Updated existing entries count distinct original article IDs that remain in the current edition and have a changed body, headword, module, lookup name, or lifespan notation in either language. Each ID counts once, under its current module. New entries are excluded. These counts are cumulative from the original render inputs.
+The English and Japanese modules have 95,331 entries with matching Korean IDs. Both editions share the 17,245-entry Korean module. Matching IDs confirm coverage, not translation quality.
+
+## Revision Policy
+
+*MyPedia* covers a wide range of Japanese regions and companies and includes population and revenue figures that may become outdated over time. *JoongAng* occasionally uses expressions such as “our country” (우리나라). When the country being referred to is clear from the context, such expressions are replaced with the country's explicit name to avoid ambiguity.
+
+Company entries are reviewed for their current operating status, mergers and acquisitions, and principal business activities. Standalone figures that are likely to become outdated are removed, while figures that help explain significant changes are retained together with their reference dates. Indicators showing changes in a company's core business or market position are tracked separately when they can be compared on a consistent basis.
+
+Regular population updates primarily cover places with populations of at least 250,000. Exceptions may be made for small countries, territories, capital cities, and other important administrative centers. However, inclusion in the population update program does not automatically justify retaining a standalone population figure in an entry.
 
 ### Subject shares before the final headword review
 
