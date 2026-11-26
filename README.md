@@ -59,13 +59,13 @@ Open Library search supplied the ISBNs and work pages below.
 
 Each module has its own body and its own index of headwords and aliases.
 
-| Module | What it holds | Text and headword language | Entries | New | Updated | Original edition words | Korean edition words |
-|--------|---------------|----------------------------|--------:|----:|--------:|-----------------------:|---------------------:|
-| Global (Common) | Topics of global interest | English | 70,562 | 355 | 12,543 | 6,669,867 | 4,338,464 |
-| Japanese | Topics about Japan | Japanese | 18,347 | 81 | 3,807 | 1,768,643 | 985,546 |
-| Korean | Topics about Korea | Korean | 17,245 | 107 | 2,138 | 743,996 | 743,996 |
-| American | Topics about the United States | English | 6,422 | 95 | 1,549 | 672,081 | 461,536 |
-| **Total per edition** | | | **112,576** | **638** | **20,037** | **9,854,587** | **6,529,542** |
+| Module | What it holds | Language | Entries | New | Updated | Original edition words | Korean edition words | Original edition pages | Korean edition pages |
+|--------|---------------|----------|--------:|----:|--------:|-----------------------:|---------------------:|-----------------------:|---------------------:|
+| Common | Topics of worldwide interest | English | 70,727 | 515 | 21,342 | 6,669,867 | 4,338,464 | 2,853 | 2,505 |
+| Japanese | Topics about Japan | Japanese | 18,367 | 104 | 5,362 | 1,768,643 | 985,546 | 552 | 556 |
+| Korean | Topics about Korea | Korean | 17,249 | 116 | 3,244 | 743,996 | 743,996 | 412 | 412 |
+| American | Topics about the United States | English | 6,424 | 97 | 1,834 | 672,081 | 461,536 | 290 | 266 |
+| **Total per edition** | | | **112,767** | **832** | **31,782** | **9,854,587** | **6,529,542** | **4,111** | **3,743** |
 
 **New** and **Updated** are cumulative counts for the current edition, measured against the original render inputs. **New** counts entries added since those inputs. **Updated** counts original entries that remain in the edition and differ in either language. Each article ID counts once in its current module, and the two counts do not overlap.
 
