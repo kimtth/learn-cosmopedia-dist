@@ -4,6 +4,8 @@ Cosmopedia combines four encyclopedias: Britannica Concise, Columbia, MyPedia, a
 
 Read the [Preface](./preface.md) for the project's aims and editorial approach.
 
+> “Maybe read through the condensed version of the Encyclopedia Britannica. I'd recommend that. You can always skip subjects ... just jump to the next one.” — **Elon Musk**, [Lex Fridman Podcast #252](https://www.youtube.com/watch?v=DxREm3s1scA)
+
 - Common: topics that matter in many countries. Example: a world-famous person that both Britannica and Columbia describe.
 - Local: topics that matter mostly in one country. Example: a Korean place that only JoongAng describes.
 - Modular: a module collects only the entries of one region. Example: an American module, a Japanese module, and a Korean module. Each module is a separate part of the whole.
