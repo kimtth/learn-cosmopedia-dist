@@ -1,16 +1,22 @@
 # Cosmopedia
 
-Cosmopedia combines four encyclopedias: Britannica Concise, Columbia, MyPedia, and JoongAng. It uses Wikipedia to cover selected developments since those editions were published. The Global and Local modules draw on English, Japanese, and Korean sources.
+Cosmopedia combines four encyclopedias: Britannica Concise, Columbia, MyPedia, and JoongAng. It uses Wikipedia to cover selected developments since those editions were published. Because of copyright, the original text of the four works is used only to select headwords. All article text is rewritten, and new and updated information is added through revisions. The Common and Local modules draw on English, Japanese, and Korean sources.
 
 Read the [Preface](./preface.md) for the project's aims and editorial approach.
 
-- Global: topics that matter in many countries. Example: a world-famous person that both Britannica and Columbia describe.
+- Common: topics that matter in many countries. Example: a world-famous person that both Britannica and Columbia describe.
 - Local: topics that matter mostly in one country. Example: a Korean place that only JoongAng describes.
 - Modular: a module collects only the entries of one region. Example: an American module, a Japanese module, and a Korean module. Each module is a separate part of the whole.
 
-From left to right: the cover, a Global page in English, a Korean page, and a Japanese page. In the Global page, the marks M and J after a headword show which works describe the topic. The Japanese and Korean names follow in brackets.
+From left to right: the cover, a Common page in English, a Korean page, and a Japanese page. In the Common page, the marks M and J after a headword show which works describe the topic. The Japanese and Korean names follow in brackets.
 
-![Sample pages from three modules](https://github.com/user-attachments/assets/1bcd9335-e1c7-4a62-82b5-c04d95268e06)
+![Sample pages from three modules](images/sample_collage.webp)
+
+**At a glance**
+
+- 112,728 articles in four modules.
+- Two editions: the **Original** edition (4,112 pages) keeps each module in its own language, and the **Korean** edition (3,743 pages) translates the Common, American, and Japanese modules into Korean.
+- Pages are 241.4 × 312.4 mm with three columns. Each module has its own index of headwords and lookup names after its text.
 
 ## Why these four works
 
@@ -18,27 +24,27 @@ The goal is a quick look at the whole picture of knowledge. Each work has one jo
 
 1. **Why a concise book**: general encyclopedias are too wide and too long for a quick check. The internet and generative AI already answer detail questions. **What is still hard is to see the whole picture of fields we do not know. A one-volume encyclopedia does that.**
 1. Longer and more complex articles also make it harder to manage **details** and follow **connections between related facts** across entries.
-1. **Britannica Concise** gives the **Global view**. Britannica has been published in many languages (Japanese, Chinese, Korean, Turkish, Polish, Hungarian, Brazilian Portuguese, Spanish). It also influenced other encyclopedias, which were edited on their own (French, Greek). Britannica Concise is its short one-volume work.
-1. **Columbia** fills in next to Britannica. It is a leading one-volume encyclopedia. Its preface calls it "the handiest one-stop, one-volume" reference. It gives a second **English-language view**.
+1. **Britannica Concise** gives the **Common view**. Britannica has been published in many languages (Japanese, Chinese, Korean, Turkish, Polish, Hungarian, Brazilian Portuguese, Spanish). It also influenced other encyclopedias, which were edited on their own (French, Greek). Britannica Concise is its short one-volume work.
+1. **Columbia** fills in next to Britannica. It is a leading one-volume encyclopedia. Its preface calls it "the handiest one-stop, one-volume" reference. It gives a second **English** and **Western view**.
 1. **MyPedia** and **JoongAng** add **Asia** and **Eastern view**. Britannica and Columbia alone are not sufficient to cover these perspectives.
  - **MyPedia** (Japanese): published by Heibonsha (平凡社). The 1931 Heibonsha Encyclopedia made 百科事典 the standard term meaning “encyclopedia” in Asia. Heibonsha is a leading encyclopedia publisher in Japan. Heibonsha is known for Tōyō Bunko (東洋文庫), a major collection of Asian classics covering the Islamic world, India, China, Korea, and other parts of Asia.
  - **JoongAng** (Korean): published by JoongAng Ilbo, a major Korean newspaper company. It contains about 47,000 headwords and about 6,000 audio-visual materials. It is strong in IT and technology, with entries such as "전기자동차" (electric car), "가상현실" (virtual reality), and "태양전지" (solar cell).
- - Some MyPedia and JoongAng entries go to the **Global (Common)** module. Reason: they add an **Eastern view** of global topics.
+ - Some MyPedia and JoongAng entries go to the **Common** module. Reason: they add an **Eastern view** of global topics.
 
 ## Sources
 
-| Work | Language | Edition and publisher | Latest year found in source text | Source entries | Source cross-references |
-|------|----------|-----------------------|----------------------------------|---------------:|-------------------------:|
-| Britannica Concise Encyclopedia (B) | en | © 2006 Encyclopædia Britannica, Inc., Chicago | 2006 | 25,288 | About 76,000 printed references |
-| The Columbia Encyclopedia, Sixth Edition (C) | en | Ed. Paul Lagasse, Columbia University Press, © 2000 (PDF text: 2000; electronic reference, © 2022: about 2021) | 2000 (PDF); about 2021 (electronic) | 41,551 | About 62,000 (print scan estimate); 90,555 links (electronic) |
-| 百科事典マイペディア, MyPedia (M) | ja | Heibonsha (平凡社), 1998 | about 1995 | 53,828 | 192,733 links, excluding standalone redirects |
-| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J) | ko | JoongAng Ilbo (중앙일보사), 1997 | about 1995 | 44,464 | 211,278 links in named entries |
+| Work | Edition, publisher, and latest year found in source text | Source entries | Source cross-references |
+|------|-----------------------------------------------------------|---------------:|-------------------------|
+| Britannica Concise Encyclopedia (B)<br>English | © 2006 Encyclopædia Britannica, Inc., Chicago<br>Latest year: 2006 | 25,288 | About 76,000 printed references |
+| The Columbia Encyclopedia, Sixth Edition (C)<br>English | Ed. Paul Lagasse, Columbia University Press, © 2000 (PDF text: 2000; electronic reference, © 2022: about 2021)<br>Latest year: 2000 (PDF); about 2021 (electronic) | 41,551 | About 62,000 (print scan estimate); 90,555 links (electronic) |
+| 百科事典マイペディア, MyPedia (M)<br>Japanese | Heibonsha (平凡社), 1998<br>Latest year: about 1995 | 53,828 | 192,733 links, excluding standalone redirects |
+| 중앙 멀티미디어백과, JoongAng Multimedia Encyclopedia '97 (J)<br>Korean | JoongAng Ilbo (중앙일보사), 1997<br>Latest year: about 1995 | 44,464 | 211,278 links in named entries |
 
 "Source entries" excludes redirects and entries that only say "See X". The rules are approximate for Columbia and JoongAng, so their counts are estimates.
 
 The years come from a random sample of 5,000 source entries per work (2026-11-12). The estimate excludes publication dates, planned events, and Wikipedia updates.
 
-Wikipedia supplements the four works with 578 new entries and 1,023 passages across 1,021 existing entries. Cosmopedia calls these W additions and marks the affected articles with `w`. The edition also includes 796 body replacement rows, 148 personal headword corrections, and six article merges.  
+The marks `B`, `C`, `M`, and `J` after a headword identify the works that cover the topic. They do not imply that the sources agree on every fact. The lowercase `w` marks material based on Wikipedia. `U` marks new and expanded entries.
 
 ### Where to find each work
 
@@ -51,37 +57,44 @@ Open Library search supplied the ISBNs and work pages below.
 | MyPedia (M) | [Kotobank](https://kotobank.jp/dictionary/mypedia/) | Latest edition: *MyPedia* (新装新訂), 1995, 1,653 pages, ISBN 978-4-582-09631-6. [Bibliographic record](https://www.books.or.jp/book-details/9784582096316) |
 | JoongAng '97 (J) | No known online version. | Closest book: 《Eureka 중앙백과사전》 (1995), 2,243 pages. [National Library of Korea catalog](https://www.nl.go.kr/NL/contents/search.do?pageNum=1&pageSize=10&srchTarget=total&kwd=Eureka+%EC%A4%91%EC%95%99백과사전) |
 
-`B`, `C`, `M`, and `J` after a headword identify the reference works that cover the topic. These marks do not imply that the sources agree on every fact. The lowercase `w` marks Wikipedia-based material. `U` marks new and expanded entries. See annual news, population, administrative areas, and statistics.
+### Works read but not used
 
-## Modules
+Two more one-volume works were extracted and then left out of every module:
 
-**Global and Common name the same module.** The preface and reader-facing descriptions use Global (세계편 in Korean). Local (지역편) covers the American, Japanese and Korean modules. Code, data, file names, PDF bookmarks, and the source legend still use Common. For example, `module: "Common"` and `cosmopedia_Common.pdf` refer to Global. Global-KO means Common-KO. No data values or file names change.
+| Work | Edition, publisher, and book info | Scan used | Entries extracted |
+|------|-----------------------------------|-----------|------------------:|
+| Der Brockhaus in einem Band<br>German | Jubiläumsedition 2005, 11th updated edition, F. A. Brockhaus, Leipzig and Mannheim<br>1,024 pages, ISBN 978-3-7653-1681-4. [Open Library](https://openlibrary.org/works/OL9093993W) | [Internet Archive](https://archive.org/details/derbrockhausinei0000unse), 1,030 PDF pages | 26,296 |
+| El Pequeño Larousse Ilustrado<br>Spanish | Larousse Editorial, Barcelona, 2019 per the Internet Archive record (the preface says the work began in 1912)<br>[Open Library](https://openlibrary.org/works/OL43191211W) | [Internet Archive](https://archive.org/details/elpequenolaarous0000vari), 1,928 PDF pages | 73,364 |
 
-Each module has its own body and its own index of headwords and aliases.
+They were left out for three reasons:
 
-| Module | What it holds | Language | Entries | New | Updated | Original edition words | Korean edition words | Original edition pages | Korean edition pages |
-|--------|---------------|----------|--------:|----:|--------:|-----------------------:|---------------------:|-----------------------:|---------------------:|
-| Common | Topics of worldwide interest | English | 70,727 | 515 | 21,342 | 6,669,867 | 4,338,464 | 2,853 | 2,505 |
-| Japanese | Topics about Japan | Japanese | 18,367 | 104 | 5,362 | 1,768,643 | 985,546 | 552 | 556 |
-| Korean | Topics about Korea | Korean | 17,249 | 116 | 3,244 | 743,996 | 743,996 | 412 | 412 |
-| American | Topics about the United States | English | 6,424 | 97 | 1,834 | 672,081 | 461,536 | 290 | 266 |
-| **Total per edition** | | | **112,767** | **832** | **31,782** | **9,854,587** | **6,529,542** | **4,111** | **3,743** |
+1. **Text quality.** Both are available to this project only as archived PDF scans of the printed books. The text layer comes from OCR (optical character recognition), so it has many reading errors. Some Larousse pages are cut off at the left edge, and some accents are lost. The extracted text does not reliably match what the book prints.
+2. **Short entries.** Most entries are one or two lines long, so they add few facts.
+3. **Overlap.** Most of their topics are already covered by the four works above.
+
+## Modules and editions
+
+Local (지역편) covers the American, Japanese and Korean modules.
+
+Each module has its own body and its own index of headwords and aliases. Only the Common module starts with the preface and the source legend.
+
+| Module | What it holds | Entries | New<br>Updated | Words (Original)<br>(Korean) | Pages (Original)<br>(Korean) |
+|--------|---------------|--------:|--------------:|----------------------------------:|----------------------------------:|
+| Common | Topics of worldwide interest<br>English | 70,950 | 536<br>21,560 | 6,686,874<br>4,347,122 | 2,860<br>2,511 |
+| Japanese | Topics about Japan<br>Japanese | 18,246 | 91<br>5,355 | 1,756,870<br>979,559 | 549<br>553 |
+| Korean | Topics about Korea<br>Korean | 17,122 | 107<br>3,228 | 739,056<br>739,056 | 409<br>409 |
+| American | Topics about the United States<br>English | 6,410 | 98<br>1,834 | 671,866<br>461,392 | 290<br>266 |
+| **Total per edition** | | **112,728** | **832<br>31,977** | **9,854,666<br>6,527,129** | **4,112<br>3,743** |
 
 **New** and **Updated** are cumulative counts for the current edition, measured against the original render inputs. **New** counts entries added since those inputs. **Updated** counts original entries that remain in the edition and differ in either language. Each article ID counts once in its current module, and the two counts do not overlap.
 
-The English and Japanese modules have 95,331 entries with matching Korean IDs. Both editions share the 17,245-entry Korean module. Matching IDs confirm coverage, not translation quality.
+## Updates since the source years
 
-## Revision Policy
+The four works end around 1995–2006. Selected facts were brought up to date with new articles, new passages, and revised facts such as office holders, organizations, population figures, and people's birth and death years. The sources were Wikipedia, a set of world yearbooks written for 1995–2025, and official records. All of this material is rewritten in new wording, never copied. Articles with Wikipedia-based material are marked `w`, and new or expanded entries are marked `U`. See [Updating facts since the source years](./README.build.md#6-updating-facts-since-the-source-years) for details.
 
-*MyPedia* covers a wide range of Japanese regions and companies and includes population and revenue figures that may become outdated over time. *JoongAng* occasionally uses expressions such as “our country” (우리나라). When the country being referred to is clear from the context, such expressions are replaced with the country's explicit name to avoid ambiguity.
+## Subject shares
 
-Company entries are reviewed for their current operating status, mergers and acquisitions, and principal business activities. Standalone figures that are likely to become outdated are removed, while figures that help explain significant changes are retained together with their reference dates. Indicators showing changes in a company's core business or market position are tracked separately when they can be compared on a consistent basis.
-
-Regular population updates primarily cover places with populations of at least 250,000. Exceptions may be made for small countries, territories, capital cities, and other important administrative centers. However, inclusion in the population update program does not automatically justify retaining a standalone population figure in an entry.
-
-### Subject shares before the final headword review
-
-This earlier table does not include the final same-headword decisions or the 578 new W entries. All PERSON entries count under **People**, regardless of field. Other entries are grouped by field:
+This table is from before the final same-headword decisions and does not include the 578 new W entries. All PERSON entries count under **People**, regardless of field. Other entries are grouped by field:
 
 - History and politics: history, politics and law, military.
 - Science, medicine and technology: life science, physics and chemistry, mathematics, earth and space, technology, medicine.
@@ -90,7 +103,7 @@ This earlier table does not include the final same-headword decisions or the 578
 - Economy, law and society: economy and business, society, education and psychology, daily culture, sports and games.
 - Other: the model answered UNSURE.
 
-| Subject | Global (Common) | Japanese | Korean | American |
+| Subject | Common | Japanese | Korean | American |
 |---|---|---|---|---|
 | **People** | 28.4% | 16.4% | 20.7% | 49.1% |
 | **Places and geography** | 16.9% | 24.7% | 11.1% | 35.4% |
@@ -101,6 +114,12 @@ This earlier table does not include the final same-headword decisions or the 578
 | **Economy, law and society** | 8.4% | 16.7% | 14.4% | 6.1% |
 | **Other** | 0.1% | 0.1% | 0.0% | 0.0% |
 
-### Limitations
+## Limitations and status
 
-Authority control relies on AI knowledge, supplemented by official terminology and rule-based audits, to ensure cross-translation consistency. Some animal and plant terms may not be accurate, but the original headwords are also provided. Similarity between entries is evaluated using embeddings, rule-based output checks, and LLM-as-a-Judge, with some human review.
+- Authority control relies on AI knowledge, supplemented by official terminology and rule-based audits, to ensure cross-translation consistency. Some animal and plant terms may not be accurate, but the original headwords are also provided.
+- Similarity between entries is evaluated using embeddings, rule-based output checks, and LLM-as-a-Judge, with some human review.
+- Automated release checks cover copied text, article coverage, and PDF navigation. They do not replace a full visual or translation review.
+
+---
+
+See [How the book was built](./README.build.md) for how the sources were read, matched, merged, rewritten, and updated.

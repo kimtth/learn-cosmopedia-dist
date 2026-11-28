@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="660" viewBox="0 0 720 660" role="img" aria-labelledby="title description">
+  <title id="title">How the book was built</title>
+  <desc id="description">Read the four works, find and judge candidate pairs, group same-subject entries into concepts, choose a module, write new articles, check and correct them, add revisions from outside sources, and produce the Original and Korean editions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0l8 4-8 4z" fill="#52667a"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="718" height="658" rx="12" fill="#fff" stroke="#d0d7de"/>
+  <g stroke="#52667a">
+    <g fill="#f2f7ff">
+      <rect x="20" y="16" width="360" height="46" rx="8"/>
+      <rect x="20" y="86" width="360" height="46" rx="8"/>
+      <rect x="20" y="236" width="360" height="46" rx="8"/>
+      <rect x="20" y="306" width="360" height="46" rx="8"/>
+      <rect x="20" y="376" width="360" height="46" rx="8"/>
+      <rect x="20" y="446" width="360" height="46" rx="8"/>
+      <rect x="20" y="516" width="360" height="46" rx="8"/>
+    </g>
+    <rect x="20" y="156" width="360" height="50" rx="8" fill="#fff6da"/>
+    <rect x="20" y="586" width="360" height="46" rx="8" fill="#eaf7ee"/>
+    <g fill="#f6f8fa">
+      <rect x="440" y="156" width="260" height="50" rx="8"/>
+      <rect x="440" y="516" width="260" height="46" rx="8"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#52667a" stroke-width="1.5" marker-end="url(#arrow)">
+    <path d="M200 62v24"/>
+    <path d="M200 132v24"/>
+    <path d="M200 206v30"/>
+    <path d="M200 282v24"/>
+    <path d="M200 352v24"/>
+    <path d="M200 422v24"/>
+    <path d="M200 492v24"/>
+    <path d="M200 562v24"/>
+    <path d="M380 181h60"/>
+    <path d="M440 539h-60"/>
+  </g>
+  <g fill="#182634" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">
+    <g font-size="15" font-weight="600">
+      <text x="200" y="35">1. Read the four works</text>
+      <text x="200" y="105">2. Find candidate pairs</text>
+      <text x="200" y="178">Same subject?</text>
+      <text x="200" y="255">Group entries into one concept</text>
+      <text x="200" y="325">3. Choose the module</text>
+      <text x="200" y="395">4. Write one new article per concept</text>
+      <text x="200" y="465">5. Check and correct</text>
+      <text x="200" y="535">Add revisions</text>
+      <text x="200" y="605">Original and Korean editions</text>
+      <text x="570" y="178">Keep the entries separate</text>
+      <text x="570" y="535">Outside sources</text>
+    </g>
+    <text x="200" y="52">Britannica, Columbia, MyPedia, JoongAng</text>
+    <text x="200" y="122">Name rules and text similarity propose pairs</text>
+    <text x="200" y="195">A model judges each pair, then safety checks must pass</text>
+    <text x="200" y="272">Each concept gets one headword</text>
+    <text x="200" y="342">Common, American, Japanese, or Korean</text>
+    <text x="200" y="412">Every sentence cites a source sentence</text>
+    <text x="200" y="482">Programs, a model, and a comparison with the sources</text>
+    <text x="200" y="552">New articles, new facts, and birth and death years</text>
+    <text x="200" y="622">112,728 articles in four modules</text>
+    <text x="570" y="196">Different, unsure, or conflicting</text>
+    <text x="570" y="553">Wikipedia, yearbooks, official records</text>
+    <text x="410" y="174" font-weight="600">No</text>
+    <text x="214" y="226" font-weight="600" text-anchor="start">Yes</text>
+  </g>
+</svg>
